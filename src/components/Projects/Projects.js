@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
+import nykka from "../../Assets/Projects/Nykka.png";
+import blufly from "../../Assets/Projects/Blufly.png";
+import dot from "../../Assets/Projects/Dotandkey.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -23,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={nykka}
               isBlog={false}
               title="Nykaa Clone"
               description="Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores. In 2020, it became the first Indian unicorn startup headed by a woman."
@@ -34,7 +37,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={blufly}
               isBlog={false}
               title="BluFly Clone"
               description="Bluefly is a pioneer in offering the best in designer brands and fashion trends at a value customers love in an online environment that is fun to visit and easy to navigate. In this Project we use HTML CSS Bootstrap and Javascript. User can Navigate to any of the pages. We have Provided Login Logout Functionality Add to Cart Functionality as well"
@@ -45,7 +48,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dot}
               isBlog={false}
               title="Dot and Key Clone"
               description="Dot and Key is an award-winning skincare company established to transform the idea of 'skincare' into a fun, easy, and acceptable notion. A fresh take on skincare. One that's founded on the understanding that everyone is unique. Here in this Project we use React-js Redux ChakraUi Bootstrap.We also provided all the fuctionality which was on original Website"
