@@ -7,6 +7,9 @@ import Type from "./Type";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Resume from "../Resume/ResumeNew.js"
+import Contactme from "../Contactme";
+
+
 
 function Home() {
   return (
@@ -47,8 +50,7 @@ function Home() {
       <Home2 />
       <About></About>
       <Projects></Projects>
-      <Resume></Resume>
-
+      <Contactme></Contactme>
     </section>
   );
 }

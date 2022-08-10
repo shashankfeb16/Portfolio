@@ -29,7 +29,10 @@ function Projects() {
               imgPath={nykka}
               isBlog={false}
               title="Nykaa Clone"
-              description="Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores. In 2020, it became the first Indian unicorn startup headed by a woman."
+              description="Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores."
+              list1="HTML"
+              list2="CSS"
+              list3="Javascript"
               ghLink="https://github.com/faisal1205/Nykaa-Clone-Project"
               demoLink="https://unique-malasada-feb4b6.netlify.app/"
             />
@@ -40,7 +43,10 @@ function Projects() {
               imgPath={blufly}
               isBlog={false}
               title="BluFly Clone"
-              description="Bluefly is a pioneer in offering the best in designer brands and fashion trends at a value customers love in an online environment that is fun to visit and easy to navigate. In this Project we use HTML CSS Bootstrap and Javascript. User can Navigate to any of the pages. We have Provided Login Logout Functionality Add to Cart Functionality as well"
+              description="Bluefly is a pioneer in offering the best in designer brands and fashion trends at a value customers love in an online environment that is fun to visit and easy to navigate. This website is based e-commerce and deliver product for both mens and womens"
+              list1="HTML"
+              list2="CSS"
+              list3="Javascript"
               ghLink="https://github.com/SPinfluencers/BlueFly"
               demoLink="https://zesty-dragon-ce71c1.netlify.app/"
             />
@@ -51,9 +57,12 @@ function Projects() {
               imgPath={dot}
               isBlog={false}
               title="Dot and Key Clone"
-              description="Dot and Key is an award-winning skincare company established to transform the idea of 'skincare' into a fun, easy, and acceptable notion. A fresh take on skincare. One that's founded on the understanding that everyone is unique. Here in this Project we use React-js Redux ChakraUi Bootstrap.We also provided all the fuctionality which was on original Website"
+              description="Dot and Key is an award-winning skincare company established to transform the idea of 'skincare' into a fun, easy, and acceptable notion. A fresh take on skincare. One that's founded on the understanding that everyone is unique."
+              list1="React"
+              list2="Redux"
+              list3="ChakraUI/Bootstrap"
               ghLink="https://github.com/Bhavesh2302/Dot-and-key-project-unit-4"
-              demoLink="https://netlify-thinks-shashankfeb16-gmail-com-is-great-4e8e6.netlify.app/"              
+              demoLink="https://netlify-thinks-shashankfeb16-gmail-com-is-great-4e8e6.netlify.app/"
             />
           </Col>
 

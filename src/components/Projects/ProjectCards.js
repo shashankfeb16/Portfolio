@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import ListGroup from "react-bootstrap/ListGroup";
 
 function ProjectCards(props) {
   return (
@@ -13,6 +14,11 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        <ListGroup className="list-group-flush">
+          <ListGroup.Item>{props.list1}</ListGroup.Item>
+          <ListGroup.Item>{props.list2}</ListGroup.Item>
+          <ListGroup.Item>{props.list3}</ListGroup.Item>
+        </ListGroup>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}

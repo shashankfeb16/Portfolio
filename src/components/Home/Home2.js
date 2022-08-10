@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Appu PP.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -99,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https:/shashankfeb16@gmail.com/"
+                  href="https:/mail.google.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -107,6 +107,7 @@ function Home2() {
                  <CgMail></CgMail>
                 </a>
               </li>
+             
             </ul>
           </Col>
         </Row>
