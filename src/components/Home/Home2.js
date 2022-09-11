@@ -1,14 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Appu PP.jpg";
+import myImg from "../../Assets/pro.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  
 } from "react-icons/ai";
-import{CgMail} from "react-icons/cg"
+import { CgMail } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -17,26 +16,22 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+            <h1 style={{ fontSize: "2.6em" }}>ABOUT ME</h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Bachelor in engineering graduate desiring for a software
+              development position in a reputed company
               <br />
-              <br />I am fluent in classics like
+              <br />
+              with strong technical skills in
               <i>
                 <b className="purple"> HTML, Css, Javascript and React. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Have the ability to &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">meet the client </b> specific requirements{" "}
+                <b className="purple">and enhance the company's growth</b>
               </i>
               <br />
               <br />
@@ -50,7 +45,8 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> React.js </b> and
+                <b className="purple"> Express.js </b>
               </i>
             </p>
           </Col>
@@ -97,17 +93,6 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https:/mail.google.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                 <CgMail></CgMail>
-                </a>
-              </li>
-             
             </ul>
           </Col>
         </Row>

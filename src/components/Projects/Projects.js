@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import nykka from "../../Assets/Projects/Nykka.png";
 import blufly from "../../Assets/Projects/Blufly.png";
 import dot from "../../Assets/Projects/Dotandkey.png";
+import tim from "../../Assets/Projects/Timely.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -62,20 +63,23 @@ function Projects() {
               list2="Redux"
               list3="ChakraUI/Bootstrap"
               ghLink="https://github.com/Bhavesh2302/Dot-and-key-project-unit-4"
-              demoLink="https://netlify-thinks-shashankfeb16-gmail-com-is-great-4e8e6.netlify.app/"
+              demoLink="https://dotandkey2.netlify.app/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={tim}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Timely Clone"
+              description="Timelyapp is centralized automated system that makes it easy for teams to work on all aspects of their programs and projects to ensure efficiency and productivity Timely helps in Log work hours, track project time and create weekly timesheets with automatic time tracking."
+              list1="React"
+              list2="Redux"
+              list3="Express/Mongodb"
+              ghLink="https://github.com/riyagshah/Timelyapp"
+              demoLink="https://timely-clone.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
